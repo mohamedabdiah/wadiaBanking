@@ -38,9 +38,9 @@ pip install -r requirements.txt
 4. Set up environment variables:
 Create a `.env` file in the root directory with the following variables:
 ```
-SECRET_KEY=your-secret-key
-JWT_SECRET_KEY=your-jwt-secret-key
-DATABASE_URL=postgresql://username:password@localhost:5432/banking_db
+SECRET_KEY=wadia-123-@@##
+JWT_SECRET_KEY=admin-123-#@@
+DATABASE_URL=postgresql://postgres:admin@localhost:5432/wadiabanking
 ```
 
 5. Create the database:
